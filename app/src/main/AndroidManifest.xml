@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Trafficlight">
-        <activity android:name="com.trafficman.trafficlight.MainActivity">
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.trafficman.trafficlight.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
